@@ -1,0 +1,42 @@
+body {
+    background-color: #495371;
+}
+
+.baner, .stopka {
+    background-color: #74959A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F1E0AC;
+    font-size: 48px; 
+}
+
+.glowny {
+    display: flex;
+}
+
+.zdjecie, .dane {
+    width: 50%;
+    height: 600px;
+    border: 8px solid #74959A;
+    background-color: #98B4AA;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+p, a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F1E0AC;
+    font-size: 18px; 
+}
+
+a:hover {
+    color: #C0B389;
+}
